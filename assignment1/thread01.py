@@ -6,7 +6,7 @@ from threading import Thread
 def task():
     # block for a moment
     sleep(1)
-    # display message
+
     print(f'{ctime()} This is from another thread')
 
 # create a thread
