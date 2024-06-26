@@ -10,7 +10,7 @@ async def wash(basket):
     return f'{ctime()} : {basket} is completed'
 
 async def main():
-    # create coroutine
+    # create coroutine#
     coro = wash('Basket A')
     print(f"{ctime()} : {coro}")
     print(f"{ctime()} : {type(coro)}")
@@ -22,5 +22,5 @@ async def main():
     result = await task
     print(f"{ctime()} : {result}")
 
-if name == '_main':
+if __name__ == '__main__':
     asyncio.run(main())
