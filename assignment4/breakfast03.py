@@ -23,4 +23,4 @@ async def main(): #1
     await egg_task
     print(f"breakfast is ready in {time()-start} min")
 
-asyncio.run(main()) #run top-level function concurrently
+asyncio.run(main()) #run top-level function concurrentl
